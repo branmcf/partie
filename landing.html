@@ -8,7 +8,8 @@
   <link rel="icon" type="image/png" href="/images/chef.ico">
 
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
   <!-- Custom Styling -->
   <link href="css/style.css" rel="stylesheet">
@@ -18,13 +19,33 @@
 <body>
     <div id="landingContent">
       DO MORE,<span style="color:#00e500">TOGETHER.</span>
-      <div id="landingSub"><button>Join the Partie</button></div>
+      <div id="landingSub"><button id="joinbtn">Join the Partie</button></div>
     </div>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close"></span>
+    <label id="joinLabel"> Join</label>
+      <form>
+        Email address:<br>
+        <input type="text" name="firstname"><br>
+        Password:<br>
+        <input type="password" name="lastname"><br>
+        Re-type Password:<br>
+        <input type="password" name="lastname"><br>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+  </div>
+
+</div>
+
+
     <div id="bottomNav">
-      Partie v1.0 &copy; 2016
-<!--<div class="right1">
-       <a>Join the Partie</a>
-     </div>-->
+      <a style="color:white;">Privacy Policy</a>  <a style="color:white;">TOS</a>
     <div class="right">
        <input href="index.html" type="image" src="images/pwrIcon.png" height="25" width="25" id="pwr">
     </div>
@@ -34,6 +55,7 @@
   <script src="js/bootstrap.min.js"></script>
   
   <!-- Custom Javascript -->
+  <script src="js/landing.js"></script>
 
 </body>
 </html>
