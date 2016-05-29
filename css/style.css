@@ -1,0 +1,151 @@
+body{
+  background: #2f2f2f;
+  font-family: Menlo;
+}
+
+button{
+  background: #00e500;
+  border: 2px solid #00e500 ;
+  color:white;
+  width: 25%;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  height:40px;
+  font-size: 20px;
+}
+
+button:hover{
+  background: #00e500;
+}
+.footer {
+    position:absolute;
+    width: 100%;
+    margin: 0 auto; 
+    height: 20px;
+    border: 1px solid white;
+    border-top-width: 2px;
+    bottom: 0;
+    /*color:#00e500;*/
+    color:#2f2f2f;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family: Menlo;
+}
+
+.header{
+    position:absolute;
+    width: 100%;
+    margin: 0 auto; 
+    height: 20px;
+    border: 1px solid white;
+    border-bottom-width: 2px;
+    top: 0;
+    /*color:#00e500;*/
+    color:white;
+    font-family: Menlo;
+    text-align: center;
+}
+
+.search {
+    position: absolute;
+    top:0px;
+    width: 100%;
+    margin: auto; 
+    height: 30px;
+    border: 1px solid white;
+    border-bottom-width: 2px;
+    color:#2f2f2f;
+    background-color: rgba(255, 255, 255, 0.7);
+    font-family: Menlo;
+    line-height: 30px;
+}
+
+.join{
+
+}
+
+.right{
+  position: absolute;
+  right: 10px;
+  bottom: 9px;
+  background:;
+}
+
+.right1{
+  position: absolute;
+  right: 50px;
+  bottom: 15px;
+  background:;
+  color:#00e500;
+  text-decoration: underline;
+
+}
+
+#mainWindow{
+  height:90vh;
+  background:;
+  border: 2px solid white;
+  color: white;
+  position: relative;
+  clear:both;
+}
+
+#subWindow{
+  top:20px;
+  background:#00e500;
+  width: 99.5%; 
+  padding-left: 5px;
+}
+
+#subWindowC{
+  top:20px;
+  background:#00e500;
+  width: 99.5%;
+  margin-top:33px; 
+  padding-left: 5px;
+}
+
+
+#subWindow1{
+  top:20px;
+  background:;
+  width: 100%; 
+  padding-left: 5px;
+}
+
+#subWindow2{
+  top:20px;
+  background:;
+  width: 100%; 
+  padding-left:px;
+  margin-top:33px;
+}
+
+#bottomNav{
+  color:white;
+  padding-top: 15px;
+  background:;
+  height: 5vh;
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  left: 8px;
+  text-align: left;
+}
+
+#landingContent{
+color: white;
+text-align: center;
+padding-top: 20%;
+font-size: 90px;
+}
+
+#landingSub{
+font-size: 40px;
+color:#00e500;
+padding-top: 20px;
+}
+
+
+
+
