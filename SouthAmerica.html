@@ -1,17 +1,9 @@
 <!doctype html>
+<!-- See http://www.firepad.io/docs/ for detailed embedding docs. -->
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Partie</title>
-
-  <!-- Icon -->
-  <link rel="icon" type="image/png" href="/images/chef.ico">
-
-  <!-- Bootstrap -->
-
-  <!-- Custom Styling -->
-  <link href="css/style.css" rel="stylesheet">
-
+  <meta charset="utf-8" />
   <!-- Firebase -->
   <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
 
@@ -34,57 +26,18 @@
     /* Height / width / positioning can be customized for your use case.
        For demo purposes, we make the user list 175px and firepad fill the rest of the page. */
     #userlist {
-      position: absolute; left: 0; top: 29px; bottom: 25px; height: auto;
-      width: 175px; background:   background:#2f2f2f;;
+      position: absolute; left: 0; top: 0; bottom: 0; height: auto;
+      width: 175px;
     }
     #firepad {
-      position: absolute; left: 175px; top: 38px; bottom: 25px; right: 0; height: auto;
+      position: absolute; left: 175px; top: 0; bottom: 0; right: 0; height: auto;
     }
-
-    .firepad-dropdown-menu a:hover {
-  color: #fff;
-  text-decoration: none;
-  background-color: red;
-}
   </style>
 </head>
+
 <body>
-  <div class="mainWindow"id="mainWindow">
-      <!--<div class="header">
-        Partie
-      </div>-->
-
-<!--       <div class="search" contenteditable>
-      </div> -->
-       <div id="subWindowC">
-        Name:Example Organization
-    </div>
-      <div id="subWindow">
-        Contact:example@mail.com
-    </div>
-    <div id="subWindow1">
-      <div id="userlist"></div>
-      <div id="firepad"></div>
-    </div>
-
-      <div class="footer">
-        Earth > North America > United States of America > Texas > Dallas > Example Organization
-        <!--Path > To > Desired > Resource-->
-      </div>
-  </div>
-
-  <div id="bottomNav">
-    <span style="color:#00e500">Partie v1.0 &copy; 2016 </span><a href="PP.html">Privacy Policy</a>  <a href="TOS.html">TOS</a> <a href="landing.html" style="color:red;">Logout</a>
-    <div class="right">
-      <a href="profile.html"> <img href="profile.html" id="" src="images/home.png" height="25" width="25"></a>
-    <!--<img href="login.html" src="images/pwrIcon.png" height="25" width="25">-->
-  </div>
-  </div>
-  <!-- Bootstrap JavaScript -->
-  <script src="js/jquery-1.11.2.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  
-  <!-- Custom Javascript -->
+  <div id="userlist"></div>
+  <div id="firepad"></div>
 
   <script>
     function init() {
@@ -125,6 +78,5 @@
     }
     init();
   </script>
-
 </body>
 </html>

@@ -5,9 +5,11 @@
 <title>Partie</title>
 
   <!-- Icon -->
-  <link rel="icon" type="image/png" href="/images/chef.ico">
+  <link rel="icon" type="image/png" href="">
 
   <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
   <!-- Custom Styling -->
   <link href="css/style.css" rel="stylesheet">
@@ -27,19 +29,19 @@
       <table class="table table-striped" id="subWindow2">
         <tbody>
           <tr>
-            <td><a method="GET">North America</a></td>
+            <td><a href="" id="cont">North America</a></td>
           </tr>
           <tr>
-            <td style="background:#00e500;">South America</td>
+            <td><a href="" id="cont">South America</a></td>
           </tr>
           <tr>
-            <td>Africa</td>
+            <td><a href="" id="cont">Africa</a></td>
           </tr>
           <tr>
-            <td style="background:#00e500;">Europe</td>
+            <td><a><span href="" id="cont">Europe</span></a></td>
           </tr>
           <tr>
-            <td>Asia</td>
+            <td> <a href="" id="cont">Asia</a></td>
           </tr>
       </table>
     </div>
@@ -50,17 +52,37 @@
       </div>
   </div>
 
-  <div id="bottomNav">
-    Partie v1.0 &copy; 2016
+    <div id="bottomNav">
+    <span style="color:#00e500">Partie v1.0 &copy; 2016 </span><a href="PP.html">Privacy Policy</a>  <a href="TOS.html">TOS</a> <a href="landing.html" style="color:red;">Logout</a>
     <div class="right">
+      <a href="profile.html"> <img href="profile.html" id="" src="images/home.png" height="25" width="25"></a>
+      <img id="addbtn" src="images/whitePlus.png" height="25" width="25">
     <!--<img href="login.html" src="images/pwrIcon.png" height="25" width="25">-->
   </div>
   </div>
-  <!-- Bootstrap JavaScript -->
-  <script src="js/jquery-1.11.2.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+
+      <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close3"></span>
+    <label id="joinLabel"> New Canvas</label>
+      <form action="canvas.html">
+        Canvas Name:<br>
+        <input id="inputResize" type="text" name="canvasname" class="form-control"><br><br>
+        <button type="submit" value="Submit" id="submitBtn">Create</button>
+      </form>
+  </div>
+
+</div>
+
+  <!-- jQuery -->
+  <script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
   
   <!-- Custom Javascript -->
+  <script src="js/index.js"></script>
+  <script src="js/landing.js"></script>
 
-</body>
+</body> 
 </html>

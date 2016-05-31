@@ -23,8 +23,3 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-
-function btntest_onclick() 
-{
-    window.location.href = "http://www.google.com";
-}

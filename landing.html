@@ -28,16 +28,16 @@
   <!-- Modal content -->
   <div class="modal-content">
     <span class="close"></span>
-    <label id="joinLabel"> Join</label>
+    <label id="joinLabel">Join</label>
       <form>
         Email address:<br>
-        <input type="text" name="firstname"><br>
+        <input id="inputResize" type="text" class="form-control" name="firstname"><br>
         Password:<br>
-        <input type="password" name="lastname"><br>
+        <input id="inputResize" type="password" class="form-control" name="lastname"><br>
         Re-type Password:<br>
-        <input type="password" name="lastname"><br>
+        <input id="inputResize" type="password" class="form-control" name="lastname"><br>
         <br>
-        <input type="submit" value="Submit">
+        <button type="submit" value="Submit" id="submitBtn">Submit</button>
       </form>
   </div>
 
@@ -45,17 +45,39 @@
 
 
     <div id="bottomNav">
-      <a style="color:white;">Privacy Policy</a>  <a style="color:white;">TOS</a>
+      <a href="about.html"style="color:#00e500">About</a> <a href="PP.html">Privacy Policy</a>  <a href="TOS.html">TOS</a> 
+      <!--<img id="addbtn" src="images/github.png" height="25" width="25">-->
     <div class="right">
-       <input href="index.html" type="image" src="images/pwrIcon.png" height="25" width="25" id="pwr">
+      <a id="loginbtn" href="login.html">Login</a> <a style="color:#00e500;" href="index.html">Enter</a>
+       <!--<input href="index.html" type="image" src="images/pwrIcon.png" height="25" width="25" id="pwr">-->
     </div>
   </div>
+
+      <!-- The Modal -->
+<div id="myModal3" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close3"></span>
+    <label id="joinLabel">Login</label>
+      <form action="profile.html">
+        Email address:<br>
+        <input id="inputResize" type="text" class="form-control" name="firstname"><br>
+        Password:<br>
+        <input id="inputResize" type="password" class="form-control" name="lastname"><br>
+        <a href="forgotpassword.html"style="color:#00e500">Forgot Password?</a><br><br>
+        <button type="submit" value="Submit" id="submitBtn">Submit</button>
+      </form>
+  </div>
+
+</div>
   <!-- Bootstrap JavaScript -->
   <script src="js/jquery-1.11.2.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   
   <!-- Custom Javascript -->
   <script src="js/landing.js"></script>
+
 
 </body>
 </html>
